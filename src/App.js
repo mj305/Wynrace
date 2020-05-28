@@ -1,30 +1,30 @@
-import React, {useEffect, useState} from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect} from 'react';
+import logo from './wlogo.png';
 import './App.css';
 
 function App() {
-  const [classes, setClasses] = useState([])
+  const [student, setStudent] = useState([]);
+
   useEffect(() => {
-    fetch(`http://localhost:4000/classes`)
+    fetch(`http://localhost:4000/`)
     .then(response => response.json())
     .then(
       classRoom => {
-        setClasses(classRoom);
+        setStudent(classRoom);
       }
     )
-  },[])
+  },[]);
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         
-          {classes.map(classRoom => {
-        return <p key={classRoom.type}>{classRoom.type}</p>
-        
+          {student.map(classStudent => {
+        return <p key={classStudent.name}>{classStudent.name}</p>
+
       })}
       </header>
-  
     </div>
   );
 }
