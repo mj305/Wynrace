@@ -1,9 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import logo from './wlogo.png';
 import './App.css';
 
 function App() {
-  const [student, setStudent] = useState([])
+  const [student, setStudent] = useState([]);
+
   useEffect(() => {
     fetch(`http://localhost:4000/`)
     .then(response => response.json())
@@ -12,7 +13,7 @@ function App() {
         setStudent(classRoom);
       }
     )
-  },[])
+  },[]);
 
   return (
     <div className="App">
