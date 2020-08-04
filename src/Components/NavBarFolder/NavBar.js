@@ -4,7 +4,7 @@ const NavBar = () => {
 
   return (
     <>
-    <h2>Hello from NavBar Component</h2>
+    <h2> NavBar </h2>
     </>
   )
 }
