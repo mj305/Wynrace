@@ -1,0 +1,39 @@
+.button-landing-button-container {
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  width: 60%;
+}
+
+.button-landing-search-item:hover {
+  background-color: white;
+  color: #2b580c;
+}
+
+.button-landing-search-item:active {
+  background-color: #3e8e41;
+  box-shadow: 0 8px 6px -6px black;
+  transform: translateY(4px);
+}
+
+.button-landing-search-item {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff; 
+  line-height: 1.5;
+  margin: .2rem;
+  padding: .5rem;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-shadow: 0 8px 6px -6px black;
+  outline:none;
+  cursor: pointer;
+}
+
+
+
+
+
