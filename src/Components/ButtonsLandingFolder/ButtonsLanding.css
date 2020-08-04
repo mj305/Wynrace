@@ -13,7 +13,7 @@
 
 .button-landing-search-item:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 8px 6px -6px black;
   transform: translateY(4px);
 }
 
