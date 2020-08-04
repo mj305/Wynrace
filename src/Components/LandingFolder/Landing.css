@@ -27,6 +27,13 @@
   padding-left: 10px;
   border-width: 0px;
   font-size: 1rem;
+  outline: none;
+}
+
+.landing-form-button:active {
+  background-color: #639a67;
+  box-shadow: 0 8px 6px -6px black;
+  transform: translateY(4px);
 }
 
 .landing-form-button {
@@ -41,4 +48,5 @@
   font-size: 1.2rem;
   font-family: "MetropolisSemiBold";
   border-radius: 5px;
+  outline: none;
 }
