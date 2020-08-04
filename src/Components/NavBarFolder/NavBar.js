@@ -4,7 +4,9 @@ const NavBar = () => {
 
   return (
     <>
-    <h2>Hello from NavBar Component</h2>
+        <nav><a id="find-recruits" className="btn" href="find recruits">Find Recruits</a></nav>
+        <nav><a id="log-in" className="btn" href="log in">Log In</a></nav>
+        <nav><a href="sign up">Sign Up</a></nav>
     </>
   )
 }
