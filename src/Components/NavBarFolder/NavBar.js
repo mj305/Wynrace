@@ -13,9 +13,9 @@ const NavBar = () => {
   return (
     <>
     <Router>
-          <Link className="" to="/sign in">Log In</Link>
-          <Link className="" to="/sign in"> Sign Up</Link>
-          </Router>    
+      <Link className="" to="/sign in">Log In</Link>
+      <Link className="" to="/sign in"> Sign Up</Link>
+    </Router>    
     </>
   )
 }
