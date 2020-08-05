@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
+/*   Switch,
+  Route, */
   Link
 } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const NavBar = () => {
     <>
     <Router>
       <div className="nav-bar-container" >
-        <img className="nav-bar-logo" src={logo} />
+        <img alt='GreenHornLogo' className="nav-bar-logo" src={logo} />
         <div className="nav-bar-group" >
           <Link className="nav-bar-item1" to="/sign in">Log In</Link>
           <Link className="nav-bar-item2" to="/sign in"> Sign Up</Link>
