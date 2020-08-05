@@ -1,7 +1,7 @@
 .button-landing-button-container {
   text-align: center;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 6rem;
   width: 60%;
 }
 
@@ -39,8 +39,8 @@
 /* MediaQueries */
 @media (max-width: 1024px) {
   .button-landing-search-item {
-    font-size: 2.5rem;
-    margin: .5rem;
+    font-size: 1.8rem;
+    margin: .3rem;
   }
 }
 
@@ -48,14 +48,19 @@
 
 
 
-@media (max-width: 1024px) {
-  .landing-header-1 {
-    margin-top: -4rem;
+@media (max-width: 1014px) {
+  .button-landing-search-item {
+    font-size: 1.3rem;
   }
-  
- .button-landing-search-item {
-  font-size: 2.2rem;
-  margin: .3rem;
+}
+
+
+
+
+
+@media (max-width: 795px) {
+  .button-landing-search-item {
+    font-size: 1.1rem;
   }
 }
 
@@ -81,6 +86,24 @@
   }
 }
 
+
+
+
+@media (max-width: 489px) {
+  .button-landing-search-item {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 320) {
+  .nav-bar-group {
+    margin-right: 0rem;
+  }
+}
 
 
 

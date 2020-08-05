@@ -3,6 +3,7 @@
   font-size: 40px;
   background-image: url('./landing-background.png');
   height: 100vh;
+  width: 100vw;
   background-color: #323232;
   display: flex;
   flex-direction: column;
@@ -10,13 +11,10 @@
 }
 
 .landing-header-1 {
-  margin-top: 0rem;
+  font-size: 2.8rem;
+  font-style: italic;
+  margin-top: -9.5rem;
   margin-bottom: -3rem;
-  font-size: 4rem;
-}
-
-.landing-header-2 {
-  font-size: 3rem;
 }
 
 .landing-form-input {
@@ -57,7 +55,9 @@
 @media (max-width: 1024px) {
 
   .landing-header-1 {
-    font-size: 5rem;
+    font-size: 4rem;
+    margin-top: -11.5rem;
+    margin-bottom: 5rem;
   }
 
   .landing-header-2 {
@@ -67,14 +67,14 @@
   }
 
   .landing-form-input {
-    height: 100px;
-    width: 59%;
-    font-size: 2.2rem;
+    height: 54px;
+    width: 40%;
+    font-size: 1.3rem;
   }
 
   .landing-form-button {
-    padding: 27px 68px 27px;
-    font-size: 2.5rem;
+    padding: 11px 25px 15px;
+    font-size: 1.5rem;
   }
 }
 
@@ -89,12 +89,6 @@
 
   .landing-header-1 {
     font-size: 4.3rem;
-  }
-
-  .landing-header-2 {
-    font-size: 3rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
   }
 
   .landing-form-input {
@@ -113,6 +107,31 @@
 
 
 
+@media (max-width: 1014px) {
+  .landing-header-1 {
+    font-size: 3.3rem;
+    margin-top: -38rem;
+  }
+
+  .landing-form-container {
+    margin-top: -29rem;
+  }
+
+  .landing-form-input {
+    height: 51px;
+    width: 48%;
+    font-size: 1.2rem;
+  }
+
+  .landing-form-button {
+    padding: 15px 41px 15px;
+    font-size: 1.2rem;
+}
+}
+
+
+
+
 
 @media (max-width: 768px) {
   .landing-form-input {
@@ -122,19 +141,41 @@
   }
 
   .landing-header-1 {
-    margin-top: -30rem;
-  }
-
-  .landing-header-2 {
-    margin-top: 4rem;
+    margin-top: -38rem;
+    padding: .2rem;
+    font-size: 3rem;
   }
 
   .landing-form-button {
     padding: 11px 42px 12px;
     font-size: 1.7rem;
   }
+
+  .landing-form-input {
+    height: 46px;
+    width: 50%;
+    font-size: 1.2rem;
+  }
+
+  .landing-form-button {
+    padding: 13px 34px 13px;
+    font-size: 1.2rem;
+  }
 }
 
+
+
+
+@media (max-width: 489px) {
+  .landing-header-1 {
+    margin-top: -23rem;
+    font-size: 2.4rem;
+  }
+
+  .landing-form-container {
+    margin-top: -12rem;
+  }
+}
 
 
 
@@ -145,16 +186,12 @@
   }
 
   .landing-header-1 {
-    font-size: 3rem;
-    margin-top: -28rem;
-  }
-
-  .landing-header-2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-top: -38rem;
   }
 
   .landing-form-container {
-      margin-top: -8rem;
+      margin-top: -27rem;
   }
 
   .landing-form-input {
@@ -169,17 +206,14 @@
 
 
 
-@media (max-width: 446px) {
-  .landing-form-container {
-    margin-top: -19rem;
-  }
+@media (max-width: 447px) {
   .landing-header-1 {
-    font-size: 2.5rem;
-    margin-top: -42rem;
+    font-size: 2.3rem;
+    margin-top: -62rem;
   }
 
-  .landing-header-2 {
-    font-size: 2rem;
+  .landing-form-container {
+    margin-top: -51rem;
   }
 }
 
@@ -196,10 +230,6 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 3rem;
-  }
-
-  .landing-header-2 {
-    font-size: 2.5rem;
   }
 
   .landing-form-container {
@@ -221,7 +251,7 @@
 
 
 
-@media (max-width: 413px) {
+@media (max-width: 414px) {
   .landing-form-container {
     margin-top: -3rem;
   }
@@ -231,8 +261,13 @@
     margin-top: 5rem;
   }
 
-  .landing-header-2 {
-    font-size: 2rem;
+  .landing-form-container {
+    margin-top: 5rem;
+  }
+
+  .landing-form-button {
+    padding: 10px 34px 10px;
+    font-size: 1.3rem;
   }
 }
 
@@ -250,11 +285,6 @@
     margin-top: -26rem;
     margin-bottom: 0rem;
     font-size: 2.3rem;
-  }
-
-  .landing-header-2 {
-    margin: .4rem;
-    font-size: 1.5rem;
   }
 
   .landing-form-container {
@@ -277,13 +307,17 @@
 
 @media (max-width: 375px) {
   .landing-header-1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin-top: -21rem;
     margin-bottom: 2rem;
   }
 
   .landing-form-container {
     margin-top: -5rem;
+  }
+
+   .landing-form {
+    margin-top: -8rem;
   }
 
   .landing-form-input {
@@ -310,11 +344,8 @@
     margin: .3rem;
     margin-top: -19rem;
     margin-bottom: 0rem;
-    font-size: 2.3rem;
-  }
-
-  .landing-header-2 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    text-align: center;
   }
 
   .landing-form-container {
@@ -322,12 +353,14 @@
   }
 
   .landing-form-input {
-    width: 76%;
+    width: 64%;
+    height: 2.5rem;
+    font-size: 1rem;
   }
 
   .landing-form-button {
-    padding: 14px 35px 14px;
-    font-size: 1.5rem;
+    padding: 14px 40px 14px;
+    font-size: 1rem;
   }
 }
 
@@ -370,10 +403,6 @@
     margin-top: -11rem;
   }
 
-  .landing-header-2 {
-    font-size: 1.5rem;
-  }
-
   .landing-form-container {
     margin-top: 1rem;
   }
@@ -392,11 +421,6 @@
     font-size: 1.8rem;
     margin: .3rem;
     margin-top: -8rem;
-  }
-
-  .landing-header-2 {
-    font-size: 1.2rem;
-    margin-top: 1.5rem;
   }
 
   .landing-form-container {

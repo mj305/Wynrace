@@ -23,8 +23,8 @@ const ButtonsLanding = () => {
           <button className='button-landing-search-item button' >SoftBall</button>
           <button className='button-landing-search-item button' >Volleyball</button>
           <button className='button-landing-search-item button' >Tennis</button>
-          <button className='button-landing-search-item button' >Hokey</button>
-          <button className='button-landing-search-item button' >FlagFootball</button>
+          <button className='button-landing-search-item button' >Hockey</button>
+          <button className='button-landing-search-item button' >Flag Football</button>
           <button className='button-landing-search-item button' >Golf</button>
       </div>
     </>

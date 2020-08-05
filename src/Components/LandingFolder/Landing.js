@@ -8,6 +8,8 @@ const Landing = () => {
 
   const [query, setQuery] = useState('');
 
+  
+
   const handleSubmit = (e) => {
     e.preventDefault()
     /* fetchFunction() */
@@ -22,7 +24,6 @@ const Landing = () => {
       <div className='landing-container' >
         <div className="landing-headers-container" >
           <h2 className="landing-header-1" > The Athletic Network for Everyone </h2>
-          <h2 className="landing-header-2" > Go! Push! Unleash Your Potential! </h2>
         </div>
 
           <div className='landing-form-container' >
