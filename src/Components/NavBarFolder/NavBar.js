@@ -6,15 +6,21 @@ import {
   Link
 } from "react-router-dom";
 
-
 import './NavBar.css';
+
+import logo from './logo.png';
 
 const NavBar = () => {
   return (
     <>
     <Router>
-      <Link className="" to="/sign in">Log In</Link>
-      <Link className="" to="/sign in"> Sign Up</Link>
+      <div className="nav-bar-container" >
+        <img className="nav-bar-logo" src={logo} />
+        <div className="nav-bar-group" >
+          <Link className="nav-bar-item1" to="/sign in">Log In</Link>
+          <Link className="nav-bar-item2" to="/sign in"> Sign Up</Link>
+        </div>
+      </div>
     </Router>    
     </>
   )

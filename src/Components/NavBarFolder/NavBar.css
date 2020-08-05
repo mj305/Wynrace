@@ -1,0 +1,42 @@
+a {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #5CBD85;
+  text-decoration: none;
+}
+
+a:link {
+  color: #5CBD85;
+}
+
+a:hover {
+  color: #d6efc7;
+}
+
+a:active {
+  color: #438a5e;
+}
+
+.nav-bar-container {
+  background-color: #323232;
+  height: 17vh;  
+}
+
+.nav-bar-logo {
+  float: left;
+  margin-left: 5rem;
+}
+
+.nav-bar-group {
+  text-align: center;
+  float: right;
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+
+.nav-bar-item1 {
+  padding-right: 3rem;
+}
+
+
+
