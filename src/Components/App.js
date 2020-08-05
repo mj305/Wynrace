@@ -7,6 +7,7 @@ import React from 'react';
 
 import Landing from './LandingFolder/Landing';
 import NavBar from './NavBarFolder/NavBar';
+import Footer from './FooterLandingFolder/FooterLanding'
 
 
 import './App.css';
@@ -17,6 +18,8 @@ function App() {
       <NavBar/>
       
       <Landing />
+
+      <Footer />
     </div>
   );
 }
