@@ -19,6 +19,8 @@ const Landing = () => {
     setQuery(e.target.value)
   }
 
+  console.log(query)
+
   return (
     <>
       <div className='landing-container' >
