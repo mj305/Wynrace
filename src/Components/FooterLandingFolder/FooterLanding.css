@@ -1,0 +1,16 @@
+p {
+    margin: 0px;
+    float: right;
+}
+
+ a:link{
+    float: left;
+    padding: 10px 70px 10px 70px;
+    color: #5CBD85;
+    font-size: 14px;
+    margin: 0px;
+}
+.footer-container {
+    justify-content: center;
+    padding: 10px 10px 10px 10px; 
+}
