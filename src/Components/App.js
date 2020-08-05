@@ -5,6 +5,7 @@ import React from 'react';
   Route,
 } from "react-router-dom"; */
 
+import Footer from './FooterLandingFolder/FooterLanding';
 import Landing from './LandingFolder/Landing';
 import NavBar from './NavBarFolder/NavBar';
 
@@ -17,6 +18,8 @@ function App() {
       <NavBar/>
       
       <Landing />
+
+      <Footer />
 
     </div>
   );
