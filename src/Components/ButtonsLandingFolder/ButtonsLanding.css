@@ -1,5 +1,4 @@
 .button-landing-button-container {
-  font-family: 'Heebo', sans-serif;
   text-align: center;
   margin: auto;
   margin-top: 60px;
@@ -32,6 +31,76 @@
   outline:none;
   cursor: pointer;
 }
+
+
+
+
+
+/* MediaQueries */
+@media (max-width: 1024px) {
+  .button-landing-search-item {
+    font-size: 2.5rem;
+    margin: .5rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+  .landing-header-1 {
+    margin-top: -4rem;
+  }
+  
+ .button-landing-search-item {
+  font-size: 2.2rem;
+  margin: .3rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .button-landing-search-item {
+    font-size: 1.7rem;
+    margin: .3rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+.button-landing-search-item {
+    font-size: 1.2rem;
+    margin: .3rem;
+  }
+}
+
+
+
+
+
+@media (max-width: 287px) {
+.button-landing-search-item {
+  font-size: 1rem;
+  margin: .2rem;
+ }
+}
+
+
+
+
+@media (max-width: 280px) {
+  .button-landing-search-item {
+    font-size: 1rem;
+    margin: .2rem;
+  }
+ }
 
 
 
