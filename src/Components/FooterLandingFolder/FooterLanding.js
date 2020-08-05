@@ -1,4 +1,6 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link
+  } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 import { library } from "@fortawesome/fontawesome-svg-core"
@@ -8,7 +10,12 @@ library.add(fab)
 
 const Footer = () => {
     return (
-        <div>
+        <>
+        <Router>
+        <div className="footer-container">
+                <Link>Privacy</Link>
+                <Link>Terms</Link> 
+                <Link>Contact Us</Link>
             <p>
                 <a
                     target="_blank"
@@ -37,6 +44,8 @@ const Footer = () => {
                 </a>
             </p> 
         </div>
+        </Router>
+        </>
     );
 }
 export default Footer;
