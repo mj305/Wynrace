@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a {
   font-size: 1.7rem;
   font-weight: 600;
@@ -40,3 +41,28 @@ a:active {
 
 
 
+=======
+.navbar-container {
+    padding: 20px 10px 20px 10px; 
+    background-color: white;
+}
+
+.navbar-log-in:link {
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.navbar-log-in:visited {
+    color: white;
+}
+
+.navbar-sign-up:link {
+    text-decoration: none;
+    padding-right: 0px;
+}
+
+.navbar-sign-up:visited {
+   color: white;
+}
+
+>>>>>>> 184ca0fc89090253f5ee4a603f46f5a7e8db166c
